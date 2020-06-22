@@ -1,0 +1,15 @@
+{
+  "/Yield/System": 457.82,
+  "/Load/I": 0.0,
+  "/Pv/I": 0.0,
+  "/Load/State": 0,
+  "/Yield/Power": 0.0,
+  "/Connected": 1,
+  "/Yield/User": 457.82,
+  "/Pv/V": 9.08,
+  "/Dc/0/Current": 0.0,
+  "/Mode": 1,
+  "/State": 0,
+  "/ErrorCode": 0,
+  "/Dc/0/Voltage": 12.32
+}
