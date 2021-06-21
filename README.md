@@ -6,7 +6,10 @@ Python DBUS json mppt solar charger scripts for VenusOS.
 
 Publishes an MPPT solarcharger on the DBUS based on the dbus definitions here: https://github.com/victronenergy/venus/wiki/dbus#solar-chargers
 
-Both scripts run on startup on the CCGX.
+Both scripts run on startup on the CCGX https://www.victronenergy.com/live/ccgx:root_access#hooks_to_install_run_own_code_at_boot.
+
+example rc.local:
+```su root -c "screen -dm -S epever-dbus ~/dbus-service.py"```
 
 
 ## Why?
