@@ -2,6 +2,7 @@
 Python DBUS json mppt solar charger scripts for VenusOS.
 
 ### Tested on RPi 3 CCGX
+### Tested on RPi 4 CCGX With python 3 and Venus_OS 3.10
 
 
 Publishes an MPPT solarcharger on the DBUS based on the dbus definitions here: https://github.com/victronenergy/venus/wiki/dbus#solar-chargers
@@ -10,6 +11,7 @@ Both scripts run on startup on the CCGX https://www.victronenergy.com/live/ccgx:
 
 example rc.local:
 ```su root -c "screen -dm -S epever-dbus ~/dbus-service.py"```
+```su root -c "screen -dm -S epever-dbus ~/dbus-values.py"```
 
 
 ## Why?
